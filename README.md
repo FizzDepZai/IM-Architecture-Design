@@ -14,6 +14,8 @@ An instant messaging system supporting cross-platforms
 # OAuth
 
 <b>References:</b><br>
+- [Security setup for RESTful web services - IBM](http://www.ibm.com/developerworks/websphere/library/techarticles/1312_ahmed/1312_ahmed.html)
+- [WS Security - IBM](http://www.ibm.com/developerworks/webservices/tutorials/ws-understand-web-services4/ws-understand-web-services4.html)
 - [OAuth 2.0 clients in Java programming - IBM](http://www.ibm.com/developerworks/library/se-oauthjavapt1/)
 - [Implementing OAuth 2.0 on IBM WebSphere DataPower - IBM](http://www.ibm.com/developerworks/websphere/library/techarticles/1208_rasmussen/1208_rasmussen.html)
 - [Enabling OAuth2.0 Service Provide on IBM WebSphere Application Server](http://www.ibm.com/developerworks/websphere/techjournal/1305_odonnell1/1305_odonnell1.html)
