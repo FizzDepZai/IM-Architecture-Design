@@ -3,6 +3,14 @@ An instant messaging system supporting cross-platforms
 
 # Full-Stack
 
+<b>References:</b><br>
+- [Full Stack - Facebook Engineering](https://www.facebook.com/notes/facebook-engineering/the-full-stack-part-i/461505383919/)
+- [C10K Problem](https://en.wikipedia.org/wiki/C10k_problem)
+- [Building Software Systems - Google](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/Stanford-DL-Nov-2010.pdf)
+- [Software Engineering Advice from building Large-Scale Distributed Systems - Google](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/stanford-295-talk.pdf)
+- [Challenge in building Large-Scale Information Retrieval Systems - Google](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/WSDM09-keynote.pdf)
+- [Building Large-Scale Internet Service - Google](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/SOCC2010-keynote-slides.pdf)
+
 # OAuth
 
 <b>References:</b><br>
