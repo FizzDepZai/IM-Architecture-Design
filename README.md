@@ -13,6 +13,8 @@ The cost of using free and open source product will only be as expensive as the 
 
 # Full-Stack
 
+![Alt text](http://docs.aws.amazon.com/gettingstarted/latest/wah-linux/images/architecture_linux.png)
+
 <b>References:</b><br>
 - [Full Stack - Facebook Engineering](https://www.facebook.com/notes/facebook-engineering/the-full-stack-part-i/461505383919/)
 - [C10K Problem](https://en.wikipedia.org/wiki/C10k_problem)
