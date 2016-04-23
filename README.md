@@ -1,6 +1,12 @@
 # IM-Project
 An instant messaging system supporting cross-platforms.
 
+<b>References:</b><br>
+- [What is WhatsApp's server architecture?](https://www.quora.com/What-is-WhatsApps-server-architecture)
+- [What is the technology behind wechat, whatsapp and other messenger apps?](http://stackoverflow.com/questions/19640703/what-is-the-technology-behind-wechat-whatsapp-and-other-messenger-apps)
+- [Erlang Programming Language - Build massively scalable soft real-time systems](https://www.erlang.org/)
+- [eJabberd - XMPP Messaging Server](https://docs.ejabberd.im/)
+- 
 # Architecture Considerations (Key Design Principle)
 
 The huge initial investment required to integrate a vendor's infrastructure (i.e. Microsoft Azure) is a major factor of generating what is known as "vendor dependency", when a company feels bound to continue using a specific vendor's software, or buy that company's integrated extension products instead of a competitor's, simply because they have already invested so much money into that vendor's products.
