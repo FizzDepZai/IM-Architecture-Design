@@ -18,11 +18,25 @@ The cost of using free and open source product will only be as expensive as the 
 
 <b>References:</b><br>
 - [Full Stack - Facebook Engineering](https://www.facebook.com/notes/facebook-engineering/the-full-stack-part-i/461505383919/)
-- [C10K Problem](https://en.wikipedia.org/wiki/C10k_problem)
 - [Building Software Systems - Google](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/Stanford-DL-Nov-2010.pdf)
 - [Software Engineering Advice from building Large-Scale Distributed Systems - Google](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/stanford-295-talk.pdf)
 - [Challenge in building Large-Scale Information Retrieval Systems - Google](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/WSDM09-keynote.pdf)
 - [Building Large-Scale Internet Service - Google](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/SOCC2010-keynote-slides.pdf)
+- [C10K Problem](https://en.wikipedia.org/wiki/C10k_problem)
+
+# Disk Storage
+
+<b>References:</b><br>
+- [Network-attached Storage](https://en.wikipedia.org/wiki/Network-attached_storage)
+- [How is disk speed measured](http://serverfault.com/questions/206370/how-is-disk-speed-measured-and-what-is-fast-how-long-should-a-copy-of-1500-gb-t)
+
+# Web and Application Server
+
+<b>References:</b><br>
+- [What are the pros and cons of Node.js versus Apache web server?](https://www.quora.com/What-are-the-pros-and-cons-of-Node-js-versus-Apache-web-server)
+- [What specifically makes Node.js more scalable than Apache?](http://stackoverflow.com/questions/16578874/what-specifically-makes-node-js-more-scalable-than-apache)
+- [What is the difference between application server and web server?](http://stackoverflow.com/questions/936197/what-is-the-difference-between-application-server-and-web-server)
+- [Tomcat Websphere Comparison - Choosing The Right Java Server Solution - See more at: https://www.mulesoft.com/tcat/tomcat-websphere#sthash.Sbi1SndB.dpuf](https://www.mulesoft.com/tcat/tomcat-websphere)
 
 # OAuth
 
