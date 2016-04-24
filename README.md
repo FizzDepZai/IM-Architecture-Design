@@ -16,15 +16,6 @@ Openfire is a real time collaboration (RTC) server licensed under the Open Sourc
 - [eJabberd - XMPP Messaging Server](https://docs.ejabberd.im/)
 - [Openfire](http://www.igniterealtime.org/projects/openfire/)
 
-# Architecture Considerations (Key Design Principle)
-
-To avoid the risk of depending only to single vendor significantly, the architecture should be loosely coupled with the vendor's infrastructure. This consideration is not just from a cost standpoint, but also from an operations standpoint. This include a need to keep operating costs down by always using the most efficient software on the market, a need for fast expansion with limited funds, which could be made difficult if every new CPU represented thousands of dollars of licensing fees, or ease-of-development concerns.
-
-For companies that are just starting out, and are unsure of how much complexity their architecture will require in the future, open source product is a safe bet because it allows them to get a very stable iteration of their infrastructure up and running for a very small initial investment. This leaves them plenty of breathing room to expand their network as needed, either by paying developers and architects to build a lightweight customized solution precisely matched to their needs, which can be expanded in response to the company's growth, or even just by saving them enough money that it's possible to migrate to a proprietary solution if their company reaches a stage where this is the most prudent decision. While for companies who are loaded with developers who like to use the latest and greatest in technology, an open source infrastructure can mean that there's enough money left over to try out other products, and because they are are so widely adopted, it's often very simple to integrate that work into the existing network if it proves successful. Avoiding the weight of massive annual license charges is important for these companies to maintain the sense that they are agile and will be able to respond to changes in the marketplace without making money the default deciding factor. 
-
-<u><b>Conclusion</b></u><br>
-The cost of using free and open source product will only be as expensive as the hardware to run it and the developer hours to configure it, and apart from all these cost concerns, open source product comes out looking pretty good. Free, lightweight, and simple, yet powerful, efficient, and proven in both production and development environments contributes to a major factor in the decision making process.
-
 # Full-Stack
 
 ![Alt text](http://docs.aws.amazon.com/gettingstarted/latest/wah-linux/images/architecture_linux.png)
@@ -42,6 +33,13 @@ The cost of using free and open source product will only be as expensive as the 
 <b>References:</b><br>
 - [Network-attached Storage](https://en.wikipedia.org/wiki/Network-attached_storage)
 - [How is disk speed measured](http://serverfault.com/questions/206370/how-is-disk-speed-measured-and-what-is-fast-how-long-should-a-copy-of-1500-gb-t)
+
+# Push Notification
+
+Due to the fact that every Google service is blocked in China by the government firewall, to send and receive push notification for device in China region we must use other push service such as Baidu. 
+
+<b>References:</b><br>
+- [Baidu Push Service](http://push.baidu.com/)
 
 # Web and Application Server
 
@@ -62,3 +60,13 @@ The cost of using free and open source product will only be as expensive as the 
 - [Using OAuth 2.0 to access Google APIs](http://developers.google.com/identity/protocols/OAuth2)
 - [Google OAuth 2.0 Playground](http://developers.google.com/oauthplayground)
 - [The OAuth 2.0 Authorization Framework](http://tools.ietf.org/html/rfc6749)
+
+
+# Architecture Considerations (Key Design Principle)
+
+To avoid the risk of depending only to single vendor significantly, the architecture should be loosely coupled with the vendor's infrastructure. This consideration is not just from a cost standpoint, but also from an operations standpoint. This include a need to keep operating costs down by always using the most efficient software on the market, a need for fast expansion with limited funds, which could be made difficult if every new CPU represented thousands of dollars of licensing fees, or ease-of-development concerns.
+
+For companies that are just starting out, and are unsure of how much complexity their architecture will require in the future, open source product is a safe bet because it allows them to get a very stable iteration of their infrastructure up and running for a very small initial investment. This leaves them plenty of breathing room to expand their network as needed, either by paying developers and architects to build a lightweight customized solution precisely matched to their needs, which can be expanded in response to the company's growth, or even just by saving them enough money that it's possible to migrate to a proprietary solution if their company reaches a stage where this is the most prudent decision. While for companies who are loaded with developers who like to use the latest and greatest in technology, an open source infrastructure can mean that there's enough money left over to try out other products, and because they are are so widely adopted, it's often very simple to integrate that work into the existing network if it proves successful. Avoiding the weight of massive annual license charges is important for these companies to maintain the sense that they are agile and will be able to respond to changes in the marketplace without making money the default deciding factor. 
+
+<u><b>Conclusion</b></u><br>
+The cost of using free and open source product will only be as expensive as the hardware to run it and the developer hours to configure it, and apart from all these cost concerns, open source product comes out looking pretty good. Free, lightweight, and simple, yet powerful, efficient, and proven in both production and development environments contributes to a major factor in the decision making process.
