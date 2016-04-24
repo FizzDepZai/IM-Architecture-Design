@@ -34,12 +34,12 @@ Openfire is a real time collaboration (RTC) server licensed under the Open Sourc
 - [Network-attached Storage](https://en.wikipedia.org/wiki/Network-attached_storage)
 - [How is disk speed measured](http://serverfault.com/questions/206370/how-is-disk-speed-measured-and-what-is-fast-how-long-should-a-copy-of-1500-gb-t)
 
-# Push Notification
-
-Due to the fact that every Google service is blocked in China by the government firewall, to send and receive push notification for device in China region we must use other push service such as Baidu. 
+# OS and Virtualization
 
 <b>References:</b><br>
-- [Baidu Push Service](http://push.baidu.com/)
+- [Windows Server 2012 Virtualization](https://www.microsoft.com/en-us/server-cloud/solutions/virtualization.aspx)
+- [Xen Virtualization](http://www.xenproject.org/)
+- [KVM - Kernel Virtual Machine](http://www.linux-kvm.org/page/Main_Page)
 
 # Web and Application Server
 
@@ -48,6 +48,15 @@ Due to the fact that every Google service is blocked in China by the government 
 - [What specifically makes Node.js more scalable than Apache?](http://stackoverflow.com/questions/16578874/what-specifically-makes-node-js-more-scalable-than-apache)
 - [What is the difference between application server and web server?](http://stackoverflow.com/questions/936197/what-is-the-difference-between-application-server-and-web-server)
 - [Tomcat Websphere Comparison - Choosing The Right Java Server Solution - See more at: https://www.mulesoft.com/tcat/tomcat-websphere#sthash.Sbi1SndB.dpuf](https://www.mulesoft.com/tcat/tomcat-websphere)
+
+# Database
+
+<b>References:</b><br>
+- [PostgreSQL - High Availability, Load Balancing, and Replication](http://www.postgresql.org/docs/9.0/static/high-availability.html)
+- [MySQL Enterprise - High Availability](https://www.mysql.com/products/enterprise/high_availability.html)
+- [MySQL Cluster - High Availability](https://www.mysql.com/products/cluster/availability.html)
+- [SQL Server 2016 - High Availability](https://msdn.microsoft.com/en-us/library/ms190202.aspx)
+- [SQL Server 2014 - High Availability](https://msdn.microsoft.com/en-us/library/cc645993(v=sql.120).aspx#High_availability)
 
 # OAuth
 
@@ -61,6 +70,12 @@ Due to the fact that every Google service is blocked in China by the government 
 - [Google OAuth 2.0 Playground](http://developers.google.com/oauthplayground)
 - [The OAuth 2.0 Authorization Framework](http://tools.ietf.org/html/rfc6749)
 
+# Push Notification
+
+Due to the fact that every Google service is blocked in China by the government firewall, to send and receive push notification for device in China region we must use other push service such as Baidu. 
+
+<b>References:</b><br>
+- [Baidu Push Service](http://push.baidu.com/)
 
 # Architecture Considerations (Key Design Principle)
 
