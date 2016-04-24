@@ -31,6 +31,7 @@ Openfire is a real time collaboration (RTC) server licensed under the Open Sourc
 # Disk Storage
 
 <b>References:</b><br>
+- [Introduction to Microsoft Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-introduction/)
 - [Network-attached Storage](https://en.wikipedia.org/wiki/Network-attached_storage)
 - [How is disk speed measured](http://serverfault.com/questions/206370/how-is-disk-speed-measured-and-what-is-fast-how-long-should-a-copy-of-1500-gb-t)
 
