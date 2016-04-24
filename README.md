@@ -1,17 +1,24 @@
 # IM-Project
+
 An instant messaging system supporting cross-platforms.
 
+While XMPP (originally named Jabber) was developed for instant messaging (IM) and is an open XML technology for real-time communication, it is defined in an open standard and uses an open systems approach of development and application, by which anyone may implement an XMPP service and interoperate with other organizations' implementations. Although many server, client, and library implementations are distributed as free and open-source software, numerous freeware and commercial software implementations also exist.
+
+eJabberd is the most famous open source Jabber server written in Erlang and is used by Whatsapp, some other tech giants such as Facebook and Google went away from it because it was difficult to find qualified developers.
+
+Openfire is a real time collaboration (RTC) server licensed under the Open Source Apache License. It uses the only widely adopted open protocol for instant messaging, XMPP (also called Jabber). It is easy to setup and administer, but offers enterprise level security and performance.
+
 <b>References:</b><br>
+- [The WhatsApp Architecture Facebook Bought For $19 Billion](http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html)
 - [What is WhatsApp's server architecture?](https://www.quora.com/What-is-WhatsApps-server-architecture)
 - [What is the technology behind wechat, whatsapp and other messenger apps?](http://stackoverflow.com/questions/19640703/what-is-the-technology-behind-wechat-whatsapp-and-other-messenger-apps)
 - [Erlang Programming Language - Build massively scalable soft real-time systems](https://www.erlang.org/)
 - [eJabberd - XMPP Messaging Server](https://docs.ejabberd.im/)
+- [Openfire](http://www.igniterealtime.org/projects/openfire/)
 
 # Architecture Considerations (Key Design Principle)
 
-The huge initial investment required to integrate a vendor's infrastructure (i.e. Microsoft Azure) is a major factor of generating what is known as "vendor dependency", when a company feels bound to continue using a specific vendor's software, or buy that company's integrated extension products instead of a competitor's, simply because they have already invested so much money into that vendor's products.
-
-There are two ways to think about this phenomenon. A huge, very wealthy company might like the fact that they can get all of their solutions from a single, familiar vendor - for them, the high price is simply the cost of using a well-established solution, and if they ever did need to migrate to a different service, they'd have the cash to finance the move. On the other hand, a much greater number of companies would view a "vendor dependency" scenario as extremely undesirable, not just from a cost standpoint, but from an operations standpoint as well. This include a need to keep operating costs down by always using the most efficient software on the market, a need for fast expansion with limited funds, which could be made difficult if every new CPU represented thousands of dollars of licensing fees, or ease-of-development concerns.
+To avoid the risk of depending only to single vendor significantly, the architecture should be loosely coupled with the vendor's infrastructure. This consideration is not just from a cost standpoint, but also from an operations standpoint. This include a need to keep operating costs down by always using the most efficient software on the market, a need for fast expansion with limited funds, which could be made difficult if every new CPU represented thousands of dollars of licensing fees, or ease-of-development concerns.
 
 For companies that are just starting out, and are unsure of how much complexity their architecture will require in the future, open source product is a safe bet because it allows them to get a very stable iteration of their infrastructure up and running for a very small initial investment. This leaves them plenty of breathing room to expand their network as needed, either by paying developers and architects to build a lightweight customized solution precisely matched to their needs, which can be expanded in response to the company's growth, or even just by saving them enough money that it's possible to migrate to a proprietary solution if their company reaches a stage where this is the most prudent decision. While for companies who are loaded with developers who like to use the latest and greatest in technology, an open source infrastructure can mean that there's enough money left over to try out other products, and because they are are so widely adopted, it's often very simple to integrate that work into the existing network if it proves successful. Avoiding the weight of massive annual license charges is important for these companies to maintain the sense that they are agile and will be able to respond to changes in the marketplace without making money the default deciding factor. 
 
