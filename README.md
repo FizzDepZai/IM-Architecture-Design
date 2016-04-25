@@ -2,7 +2,7 @@
 
 An instant messaging system supporting cross-platforms.
 
-While XMPP (originally named Jabber) was developed for instant messaging (IM) and is an open XML technology for real-time communication, it is defined in an open standard and uses an open systems approach of development and application, by which anyone may implement an XMPP service and interoperate with other organizations' implementations. Although many server, client, and library implementations are distributed as free and open-source software, numerous freeware and commercial software implementations also exist.
+XMPP (also known as Jabber) is the leading open standard for instant messaging (IM) and is an open XML technology for real-time communication. Since 2004, it's been an approved standard of the IETF (the same organization that standardized email and World Wide Web protocols). A rich set of extensions to the protocol are maintained by the Jabber Software Foundation, by which anyone may implement an XMPP service and interoperate with other organizations' implementations. Today, XMPP is used by leading companies, millions of users worldwide and is the best choice for open real-time collaboration. Although many server, client, and library implementations are distributed as free and open-source software, numerous freeware and commercial software implementations also exist.
 
 eJabberd is the most famous open source Jabber server written in Erlang and is used by Whatsapp, some other tech giants such as Facebook and Google went away from it because it was difficult to find qualified developers.
 
