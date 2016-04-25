@@ -13,8 +13,9 @@ Openfire is a real time collaboration (RTC) server licensed under the Open Sourc
 - [What is WhatsApp's server architecture?](https://www.quora.com/What-is-WhatsApps-server-architecture)
 - [What is the technology behind wechat, whatsapp and other messenger apps?](http://stackoverflow.com/questions/19640703/what-is-the-technology-behind-wechat-whatsapp-and-other-messenger-apps)
 - [Erlang Programming Language - Build massively scalable soft real-time systems](https://www.erlang.org/)
-- [eJabberd - XMPP Messaging Server](https://docs.ejabberd.im/)
-- [Openfire](http://www.igniterealtime.org/projects/openfire/)
+- [eJabberd - XMPP Messaging Server based on Erlang](https://docs.ejabberd.im/)
+- [Openfire - XMPP Messaging Server based on Java](http://www.igniterealtime.org/projects/openfire/)
+- [Bulding Facebook Messenger with MQTT](https://www.facebook.com/notes/facebook-engineering/building-facebook-messenger/10150259350998920)
 
 # Full-Stack
 
