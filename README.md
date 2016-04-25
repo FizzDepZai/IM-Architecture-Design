@@ -16,6 +16,7 @@ Openfire is a real time collaboration (RTC) server licensed under the Open Sourc
 - [eJabberd - XMPP Messaging Server based on Erlang](https://docs.ejabberd.im/)
 - [Openfire - XMPP Messaging Server based on Java](http://www.igniterealtime.org/projects/openfire/)
 - [Bulding Facebook Messenger with MQTT](https://www.facebook.com/notes/facebook-engineering/building-facebook-messenger/10150259350998920)
+- [Why Facebook is using MQTT on mobile](https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_facebook_is_using_mqtt_on_mobile?lang=en)
 
 # Full-Stack
 
