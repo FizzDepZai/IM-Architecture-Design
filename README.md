@@ -40,6 +40,7 @@ However XMPP is a heavyweight protocol (streaming XML message) with high overhea
 
 <b>References:</b><br>
 - [Introduction to Microsoft Azure Storage](https://azure.microsoft.com/en-us/documentation/articles/storage-introduction/)
+- [To BLOB or NOT to BLOB](http://research.microsoft.com/apps/pubs/default.aspx?id=64525)
 - [Network-attached Storage](https://en.wikipedia.org/wiki/Network-attached_storage)
 - [How is disk speed measured](http://serverfault.com/questions/206370/how-is-disk-speed-measured-and-what-is-fast-how-long-should-a-copy-of-1500-gb-t)
 
