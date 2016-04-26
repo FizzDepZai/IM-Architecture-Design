@@ -4,9 +4,12 @@ An instant messaging system supporting cross-platforms.
 
 XMPP (also known as Jabber) is the leading open standard for instant messaging (IM) and is an open XML technology for real-time communication. Since 2004, it's been an approved standard of the IETF (the same organization that standardized email and World Wide Web protocols). A rich set of extensions to the protocol are maintained by the Jabber Software Foundation, by which anyone may implement an XMPP service and interoperate with other organizations' implementations. Today, XMPP is used by leading companies, millions of users worldwide and is the best choice for open real-time collaboration. Although many server, client, and library implementations are distributed as free and open-source software, numerous freeware and commercial software implementations also exist.
 
-eJabberd is the most famous open source Jabber server written in Erlang and is used by Whatsapp, some other tech giants such as Facebook and Google went away from it because it was difficult to find qualified developers.
+1. eJabberd is the most famous open source Jabber server written in Erlang and is used by Whatsapp, some other tech giants such as Facebook and Google went away from it because it was difficult to find qualified developers.
 
-Openfire is a real time collaboration (RTC) server licensed under the Open Source Apache License. It uses the only widely adopted open protocol for instant messaging, XMPP (also called Jabber). It is easy to setup and administer, but offers enterprise level security and performance.
+2. Openfire is a real time collaboration (RTC) server licensed under the Open Source Apache License. It uses the only widely adopted open protocol for instant messaging, XMPP (also called Jabber). It is easy to setup and administer, but offers enterprise level security and performance.
+
+However XMPP is a heavyweight protocol (streaming XML message) with high overhead in the network, which cause long latency when sending a message (long-polling technique) and also battery draining issue on mobile devices. Companies such as Facebook uses MQTT protocol at the client-side to improve connection performance and battery life. MQTT stands for MQ Telemetry Transport. It is a publish/subscribe, extremely simple and lightweight messaging protocol, designed for constrained devices and low-bandwidth, high-latency or unreliable networks. 
+
 
 <b>References:</b><br>
 - [The WhatsApp Architecture Facebook Bought For $19 Billion](http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html)
@@ -15,6 +18,7 @@ Openfire is a real time collaboration (RTC) server licensed under the Open Sourc
 - [Erlang Programming Language - Build massively scalable soft real-time systems](https://www.erlang.org/)
 - [eJabberd - XMPP Messaging Server based on Erlang](https://docs.ejabberd.im/)
 - [Openfire - XMPP Messaging Server based on Java](http://www.igniterealtime.org/projects/openfire/)
+- [What is MQTT?](http://mqtt.org/faq)
 - [Bulding Facebook Messenger with MQTT](https://www.facebook.com/notes/facebook-engineering/building-facebook-messenger/10150259350998920)
 - [Why Facebook is using MQTT on mobile](https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_facebook_is_using_mqtt_on_mobile?lang=en)
 
