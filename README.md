@@ -19,6 +19,7 @@ However XMPP is a heavyweight protocol (streaming XML message) with high overhea
 - [Openfire - XMPP Messaging Server based on Java](http://www.igniterealtime.org/projects/openfire/)
 - [What is MQTT?](http://mqtt.org/faq)
 - [MQTT community wiki](https://github.com/mqtt/mqtt.github.io/wiki)
+- [Eclipse Paho MQTT Client in Java](http://www.eclipse.org/paho/)
 - [Bulding Facebook Messenger with MQTT](https://www.facebook.com/notes/facebook-engineering/building-facebook-messenger/10150259350998920)
 - [Why Facebook is using MQTT on mobile](https://www.ibm.com/developerworks/community/blogs/mobileblog/entry/why_facebook_is_using_mqtt_on_mobile?lang=en)
 
