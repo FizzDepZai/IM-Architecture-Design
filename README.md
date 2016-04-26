@@ -30,6 +30,8 @@ However XMPP is a heavyweight protocol (streaming XML message) with high overhea
 <b>References:</b><br>
 - [Full Stack - Facebook Engineering](https://www.facebook.com/notes/facebook-engineering/the-full-stack-part-i/461505383919/)
 - [Scaling Out - Facebook Engineering](https://www.facebook.com/notes/facebook-engineering/scaling-out/23844338919/)
+- [Scaling Facebook to 500 Million Users and Beyond](https://www.facebook.com/notes/facebook-engineering/scaling-facebook-to-500-million-users-and-beyond/409881258919/)
+- [Scaling memcached at Facebook](https://www.facebook.com/notes/facebook-engineering/scaling-memcached-at-facebook/39391378919/)
 - [Building Software Systems - Google](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/Stanford-DL-Nov-2010.pdf)
 - [Software Engineering Advice from building Large-Scale Distributed Systems - Google](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/stanford-295-talk.pdf)
 - [Challenge in building Large-Scale Information Retrieval Systems - Google](http://static.googleusercontent.com/media/research.google.com/en//people/jeff/WSDM09-keynote.pdf)
