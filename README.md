@@ -8,8 +8,7 @@ XMPP (also known as Jabber) is the leading open standard for instant messaging (
 
 2. Openfire is a real time collaboration (RTC) server licensed under the Open Source Apache License. It uses the only widely adopted open protocol for instant messaging, XMPP (also called Jabber). It is easy to setup and administer, but offers enterprise level security and performance.
 
-However XMPP is a heavyweight protocol (streaming XML message) with high overhead in the network, which cause long latency when sending a message (long-polling technique) and also battery draining issue on mobile devices. Companies such as Facebook uses MQTT protocol at the client-side to improve connection performance and battery life. MQTT stands for MQ Telemetry Transport. It is a publish/subscribe, extremely simple and lightweight messaging protocol, designed for constrained devices and low-bandwidth, high-latency or unreliable networks. 
-
+However XMPP is a heavyweight protocol (streaming XML message) with high overhead in the network, which cause long latency when sending a message (long-polling technique) and also battery draining issue on mobile devices. Companies such as Facebook uses MQTT protocol at the client-side to improve connection performance and battery life. MQTT stands for MQ Telemetry Transport. It is a publish/subscribe, extremely simple and lightweight messaging protocol, designed for constrained devices and low-bandwidth, high-latency or unreliable networks. MQTT is being standardized by OASIS as a communication protocol for Internet of Things (IoT) and Machine-to-Macine (M2M) applications.
 
 <b>References:</b><br>
 - [The WhatsApp Architecture Facebook Bought For $19 Billion](http://highscalability.com/blog/2014/2/26/the-whatsapp-architecture-facebook-bought-for-19-billion.html)
