@@ -1,4 +1,4 @@
-# IM-Project
+# IM-Architecture-Design
 
 An instant messaging system supporting cross-platforms.
 
